@@ -5,11 +5,22 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc index.ts"
+    "build": "gulp",
+    "build-docs": "./node_modules/bin/typedoc --out ./docs/"
   },
-  "author": "George Bora <gpbora@gmail.com>",
-  "license": "ISC",
+  "author": {
+    "name": "George Bora",
+    "email": "gpbora@gmail.com"
+  },
+  "license": "BSD-3-Clause-Attribution",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GBora/node-pcl.git"
+  },
   "devDependencies": {
-    "typescript": "^2.1.4"
+    "gulp-typedoc": "^2.0.1",
+    "typedoc": "^0.5.1",
+    "typescript": "^2.1.4",
+    "gulp": "^3.9.1"
   }
 }
