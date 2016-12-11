@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "gulp",
-    "build-docs": "./node_modules/bin/typedoc --out ./docs/"
+    "build-docs": "gulp typedoc"
   },
   "author": {
     "name": "George Bora",
