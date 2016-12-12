@@ -8,6 +8,7 @@
     "build": "gulp",
     "build-docs": "gulp typedoc"
   },
+  "typings":  "dist/src/index.d.ts",
   "author": {
     "name": "George Bora",
     "email": "gpbora@gmail.com"

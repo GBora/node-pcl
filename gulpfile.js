@@ -7,7 +7,7 @@ var tsProject = ts.createProject('tsconfig.json');
 gulp.task('default', function () {
     return gulp.src('src/*.ts')
                .pipe(tsProject())
-               .pipe(gulp.dest('release'));
+               .pipe(gulp.dest('dist'));
 });
 
 
