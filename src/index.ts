@@ -23,4 +23,4 @@ class PointCloud {
     }
 }
 
-export default Point;
+export { Point, PointCloud }

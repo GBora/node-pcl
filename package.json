@@ -4,11 +4,11 @@
   "description": "A partial implementation in node of the PCL library.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha tests/point.test.js",
     "build": "gulp",
     "build-docs": "gulp typedoc"
   },
-  "typings":  "dist/src/index.d.ts",
+  "typings": "dist/src/index.d.ts",
   "author": {
     "name": "George Bora",
     "email": "gpbora@gmail.com"
@@ -23,5 +23,8 @@
     "typedoc": "^0.5.1",
     "typescript": "^2.1.4",
     "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "unit.js": "^2.0.0"
   }
 }

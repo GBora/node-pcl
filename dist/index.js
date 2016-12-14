@@ -7,6 +7,7 @@ var Point = (function () {
     }
     return Point;
 }());
+exports.Point = Point;
 var PointCloud = (function () {
     function PointCloud(points) {
         this.points = [];
@@ -18,5 +19,4 @@ var PointCloud = (function () {
     };
     return PointCloud;
 }());
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.default = Point;
+exports.PointCloud = PointCloud;
